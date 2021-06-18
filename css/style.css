@@ -1,46 +1,66 @@
 * {
   margin: 0;
+  font-family: "Source Sans Pro", sans-serif;
 }
 header {
-  background-color: #e6e6e6;
+  background-image: url("../img/26320.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center -5px;
+  background-attachment: fixed;
+  height: 320px;
 }
 
 #logo {
   display: block;
   margin: auto;
-  width: 100px;
-  height: 120px;
-}
-h1 {
-  font-size: 32px;
-  text-align: center;
-  padding-left: 16px;
-  letter-spacing: 0.6ch;
-  word-spacing: 1.2ch;
-  padding-bottom: 3%;
+  width: 180px;
+  height: 200px;
+  border-image: stretch;
 }
 
 body {
-  background-color: #e6e6e6;
+  background-color: rgb(255, 253, 253);
   margin-left: 8%;
   margin-right: 8%;
 }
 main {
-  background-color: #ffffff;
-  padding-top: 8%;
+  background-color: rgb(219, 205, 205);
+  background-position: center;
+  padding-top: 1%;
   padding-bottom: 9%;
   padding-left: 7.11%;
   padding-right: 5.5%;
 }
+h1 {
+  font-size: 32px;
+  text-align: center;
+  letter-spacing: 0.6ch;
+  margin-top: 72px;
+  word-spacing: 1.2ch;
+  padding-bottom: 4%;
+  height: 0%;
+}
 h1,
 h2 {
-  color: #005677;
-  font-family: Times New Roman;
+  color: #41b9e8;
   font-style: normal;
-  background-color: #c4c4c4;
+  background-color: black;
   padding-top: 4px;
   font-weight: bold;
 }
+
+#de-mi {
+  border-radius: 20px;
+  margin-left: 830px;
+  text-align: right;
+}
+a:link,
+a:visited,
+a:active {
+  text-decoration: none;
+}
+
 h2 {
   padding-bottom: 4px;
   font-size: 24px;
@@ -50,12 +70,18 @@ h2 {
   letter-spacing: 0.5ch;
   word-spacing: 0.2ch;
 }
+section {
+  margin-top: 8%;
+}
 ul#type li {
   list-style-type: disc;
 }
 li {
   line-height: 1.8;
   list-style-type: none;
+}
+.inline {
+  margin-left: 82px;
 }
 span.cursiva-negrita {
   font-style: italic;
@@ -67,19 +93,16 @@ span.negrita-fuerte {
 }
 
 footer {
-  background-color: #005677;
+  background-image: url("../img/26320.jpg");
+  background-attachment: fixed;
   color: white;
-  padding-top: 0.2%;
+  padding-top: 0;
   padding-bottom: 0.1%;
   text-align: center;
+  height: 80px;
 }
-img.icon-inst {
-  display: inline-block;
-  width: 20px;
-  height: 20px;
-}
-img.icon-likn {
-  display: inline-block;
-  width: 20px;
-  height: 20px;
+.fab {
+  color: white;
+  padding-left: 20px;
+  padding-top: 25px;
 }
